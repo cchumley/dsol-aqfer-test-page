@@ -1,3 +1,25 @@
+<head>    
+<!-- CookieConsent by Osano -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": { "background": "#000" },
+            "button": { "background": "#f1d600" }
+        },
+        "theme": "classic",
+        "content": {
+            "message": "This website uses cookies to ensure you get the best experience.",
+            "dismiss": "Got it!",
+            "link": "Learn more",
+            "href": "/privacy-policy.html" // Your privacy policy page
+        }
+    });
+});
+</script>
+</head>
+
 <body>
     <h1>Welcome to the Aqfer Test Page!</h1>
     <script src="aqfer-test-class-deploy.js" title="pxsnpt"></script>
