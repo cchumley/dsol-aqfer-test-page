@@ -26,8 +26,7 @@ function _pxTagInject(p, d, w, l) {
             cls: 1,
             dmn: 1,
             pubid: 1,
-            evid: 1,
-            aq_m: 1
+            evid: 1
         };
 
     // Calculate domain or fallback to 'unknown'
