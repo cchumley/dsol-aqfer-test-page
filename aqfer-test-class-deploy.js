@@ -8,6 +8,7 @@ var lijitData = {
 // Modify lijitData properties
 (function(a) {
     a.cls = 'test';
+    a.cat = 'garfield';
     a.aqet = 'pv';
     a.pubid = 'my-pub-id';
 })(lijitData);
